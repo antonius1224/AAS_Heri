@@ -1,0 +1,21 @@
+{
+    "model": "qwen2-vl-2b-instruct",
+    "messages": [
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url":"IMAGE_PLACEHOLDER"
+                    }
+                },
+                {
+                    "type": "text",
+                    "text": "What is the license plate number shown in this image? Respond only with the plate number."
+                }
+            ]
+        }
+    ],
+    "stream": false
+}
